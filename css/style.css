@@ -7,7 +7,11 @@
 }
 
 .navbar-collapse .navbar-nav li a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.navbar-collapse .navbar-nav li a:hover {
+    color: orangered;
 }
 
 .carousel-inner {
@@ -27,4 +31,10 @@
 
 .quiz .card:hover {
     border: 1px solid orangered;
+}
+
+.class {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
 }
